@@ -1,0 +1,27 @@
+{
+  "Win10": {
+    "users": ["lbunge","kbrown","aperez","jkowalski","jpeterson","mkousiry","janand"],
+    "challenges": {
+      "Unauthorized administrator lbunge": {
+        "type": "stdusr",
+        "value": 10,
+        "user": "lbunge"
+      },
+      "Unauthorized user skowalski": {
+        "type": "remusr",
+        "value": 10,
+        "user": "skowalski"
+      },
+      "Make user pcreed": {
+        "type": "addusr",
+        "value": 10,
+        "user": "pcreed"
+      },
+      "Unsecured user kbrown": {
+        "type": "secusr",
+        "value": 10,
+        "user": "kbrown"
+      }
+    }
+  }
+}
