@@ -30,6 +30,3 @@ function Get-AccExistence {
 
     return $Exists
 }
-
-
-Get-AccExistence -Username "Michael"
